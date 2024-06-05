@@ -1,6 +1,6 @@
 import pytest
 
-from graph import DialogGraph, DialogNode, DialogChoice, NodeGraphics
+from dialog_tree.graph import DialogGraph, DialogNode, DialogChoice, NodeGraphics
 
 
 def test_reject_missing_child():

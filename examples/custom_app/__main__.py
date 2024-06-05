@@ -8,10 +8,10 @@ from pygame.rect import Rect
 from pygame.surface import Surface
 from pygame.time import Clock
 
-from constants import Millis, Vec2, Vec3, BLACK, WHITE
-from dialog_component import DialogComponent
-from graph import DialogGraph, DialogNode, NodeGraphics, DialogChoice
-from sound import SoundPlayer
+from dialog_tree.constants import Millis, Vec2, Vec3, BLACK, WHITE
+from dialog_tree.dialog_component import DialogComponent
+from dialog_tree.graph import DialogGraph, DialogNode, NodeGraphics, DialogChoice
+from dialog_tree.sound import SoundPlayer
 
 
 def main():

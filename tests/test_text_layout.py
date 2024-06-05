@@ -1,4 +1,4 @@
-import text_util
+from dialog_tree import text_util
 
 
 def test_simple():

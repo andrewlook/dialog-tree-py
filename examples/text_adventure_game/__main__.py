@@ -1,7 +1,7 @@
 import time
 
-from graph import DialogGraph, DialogNode, DialogChoice
-from text_util import layout_text_in_area
+from dialog_tree.graph import DialogChoice, DialogGraph, DialogNode
+from dialog_tree.text_util import layout_text_in_area
 
 
 def main():
