@@ -18,7 +18,7 @@ no-brainers. Contributions are welcome and encouraged!
 
 ## Installation
 
-(This project assumes that you are using Python3.) 
+(This project assumes that you are using Python3.)
 
 Install required dependencies with:
 
@@ -33,6 +33,7 @@ be used.
 
 These examples demonstrate how to use the provided dialog-runner by supplying it with your own
 configuration and resources
+
 ```bash
 # Animated dialog based on JSON configuration, using custom sound/image resources
 examples/animated_dialog/run.sh
@@ -42,13 +43,14 @@ examples/slideshow/run.sh
 ```
 
 These examples demonstrate how to use Dialog-Tree as a Python library in your own code-base
+
 ```bash
 # An example Pygame app that sets up a dialog surface along with other content on the screen
-python3 examples/custom_app
+python3 -m examples.custom_app
 
 # A text-based adventure game that uses the graph parts of the library but none of the UI parts
-python3 examples/text_adventure_game
-``` 
+python3 -m examples.text_adventure_game
+```
 
 To see a visual graph representation of a dialog configuration file, use:
 
@@ -56,7 +58,6 @@ To see a visual graph representation of a dialog configuration file, use:
 ./inspect.sh examples/animated_dialog/wikipedia.json
 # This requires you to have graphviz installed on your machine
 ```
-
 
 ## Development
 
@@ -75,4 +76,5 @@ Please make sure to update tests as appropriate.
 If adding image resources to repository, try to keep them small to reduce the byte size.
 
 ## License
+
 [MIT](LICENSE.txt)
