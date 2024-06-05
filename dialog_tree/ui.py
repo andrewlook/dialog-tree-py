@@ -1,17 +1,17 @@
 from abc import ABC
 from random import randint
-from typing import Tuple, List, Optional, Dict
+from typing import Dict, List, Optional, Tuple
 
 import pygame
 from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
 
-from constants import WHITE, GREEN, BLACK, Vec2, Vec3, Millis
-from graph import DialogNode
-from sound import SoundPlayer
-from text_util import layout_text_in_area
-from timing import PeriodicAction
+from .constants import BLACK, GREEN, WHITE, Millis, Vec2, Vec3
+from .graph import DialogNode
+from .sound import SoundPlayer
+from .text_util import layout_text_in_area
+from .timing import PeriodicAction
 
 
 class _Component(ABC):

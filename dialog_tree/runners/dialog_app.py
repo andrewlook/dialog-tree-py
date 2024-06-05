@@ -1,18 +1,18 @@
 import argparse
 import os
 from pathlib import Path
-from typing import Dict, Optional, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 import pygame
 from pygame.font import Font
 from pygame.mixer import Sound
 from pygame.surface import Surface
 
-from config_file import load_dialog_from_file
-from constants import BLACK, Millis
-from dialog_component import DialogComponent
-from graph import DialogGraph
-from sound import SoundPlayer
+from ..config_file import load_dialog_from_file
+from ..constants import BLACK, Millis
+from ..dialog_component import DialogComponent
+from ..graph import DialogGraph
+from ..sound import SoundPlayer
 
 FONT_DIR = "resources/fonts"
 SOUND_DIR = "resources/sounds"

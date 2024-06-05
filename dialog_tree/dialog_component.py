@@ -3,10 +3,10 @@ from typing import Dict, List
 from pygame import Surface
 from pygame.font import Font
 
-from constants import Millis, Vec2
-from graph import DialogGraph
-from sound import SoundPlayer
-from ui import Ui
+from .constants import Millis, Vec2
+from .graph import DialogGraph
+from .sound import SoundPlayer
+from .ui import Ui
 
 
 class DialogComponent:

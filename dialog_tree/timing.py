@@ -1,6 +1,6 @@
 from typing import Callable, Any
 
-from constants import Millis
+from .constants import Millis
 
 
 class PeriodicAction:

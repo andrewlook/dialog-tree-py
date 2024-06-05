@@ -3,8 +3,8 @@ from typing import Dict
 import pygame.mixer
 from pygame.mixer import Sound
 
-from constants import Millis
-from timing import PeriodicAction
+from .constants import Millis
+from .timing import PeriodicAction
 
 
 class SoundPlayer:

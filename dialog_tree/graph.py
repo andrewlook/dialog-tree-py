@@ -1,6 +1,6 @@
 from typing import List, Optional, Dict
 
-from constants import Vec2, Millis
+from .constants import Vec2, Millis
 
 
 class DialogChoice:

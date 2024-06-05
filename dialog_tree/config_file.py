@@ -1,8 +1,8 @@
 import json
-from typing import List, Dict
+from typing import Dict, List
 
-from constants import Millis
-from graph import DialogGraph, DialogNode, DialogChoice, NodeGraphics
+from .constants import Millis
+from .graph import DialogChoice, DialogGraph, DialogNode, NodeGraphics
 
 
 def load_dialog_from_file(file_path: str) -> DialogGraph:
